@@ -1,0 +1,162 @@
+.bloc-tabs2::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* .opensort::-webkit-scrollbar{
+  display: none;
+} */
+/* .Tabbtn{
+  width: 150px;
+} */
+.carcular-conui {
+  border: 1.5px solid rgba(264, 264, 264, 0.5);
+  border-radius: 50%;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carcular-ui {
+  margin: 7.5px;
+}
+
+.box-container-product {
+  box-shadow: 0 1px 4px rgba(17, 17, 17, 0.3);
+  text-align: initial;
+  display: flex;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+}
+
+.usercon {
+  border: 1.5px solid #111;
+  padding: 2px;
+}
+
+.feedcon {
+  align-items: center;
+  gap: 10px;
+}
+
+.bloc-tabs2 {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  overflow-x: auto;
+}
+.stickyDrop {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.price-box {
+  /* box-shadow: 0.08em 0.08em 0 rgb(red, 204, 0, 8); */
+  box-shadow: 5px 5px rgb(173, 53, 53);
+}
+
+.Tabbtn {
+  outline: none;
+  width: 150px;
+}
+
+/* .active-tabs.Tabbtn {
+  width: 150px;
+ 
+} */
+
+/* .tabS.Tabbtn {
+  width: 150px;
+
+} */
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-div {
+  visibility: hidden;
+}
+.checkbox-div.visible {
+  visibility: visible;
+}
+
+.hover-divnine:hover .checkbox-div {
+  visibility: visible;
+}
+
+@media screen and (max-width: 450px) {
+  .product-image {
+    width: 120px;
+    height: 70px;
+  }
+
+  .hover-divnine:nth-child(2n) {
+    padding-left: 0.75rem;
+    border-right: none;
+  }
+
+  .hover-divnine:nth-child(n) {
+    padding-right: 0.75rem;
+  }
+
+  .hover-divnine:nth-child(2) {
+    padding-right: 0;
+  }
+
+  .hover-divnine:nth-child(3) {
+    border-bottom: none;
+  }
+
+  .hover-divnine:nth-child(4) {
+    border-bottom: none;
+    padding-right: 0;
+  }
+
+  .Tabbtn {
+    outline: none;
+    /* Add any common styles for the button here */
+  }
+
+  .active-tabs.Tabbtn {
+    width: 100px;
+  }
+
+  .tabS.Tabbtn {
+    width: 100px;
+    /* Add styles for the inactive state (when the dropdown is closed) */
+  }
+}
+
+/* 
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+} */
+
+/* .bloc-tabs2{
+  position: sticky;
+  top:0;
+
+} */
+
+/* .dropdown1 {
+  position: relative;
+  z-index: 999999;
+}
+
+.dropdown1 .absolute {
+  position: absolute;
+  top: 100%;
+  left: 0;
+} */

@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Wallpaper",
+    "text": "This text is from wallpaper",
+    "heading": "Wallpaper heading"
+  },
+  {
+    "category": "Flooring",
+    "text": "This text is from flooring",
+    "heading": "Flooring heading"
+  },
+  {
+    "category": "Curtains",
+    "text": "This text is from curtains",
+    "heading": "Curtains heading"
+  },
+  {
+    "category": "Blinds",
+    "text": "This text is from blinds",
+    "heading": "Blinds heading"
+  }
+]
