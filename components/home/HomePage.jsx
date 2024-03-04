@@ -58,7 +58,7 @@ const HomePage = () => {
   return (
     <>
       <div className="overflow-x-hidden fade-in">
-        {popUp ? null : <PopUp />}
+        {popUp ? <PopUp /> : null}
         {isFilterVisible && (
           <>
             {isSearchBarVisible && <Expandedbar onClose={onClose} />}
